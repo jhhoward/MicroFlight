@@ -188,7 +188,7 @@ void loop()
 #if DEV_MODE
   if(arduboy.nextFrameDEV())
 #else
-  if(arduboy.nextFrameDEV())
+  if(arduboy.nextFrame())
 #endif
   {
 	constexpr int16_t frameDuration = 1000 / TARGET_FRAMERATE;

@@ -22,7 +22,7 @@
 #define DISPLAY_HEIGHT 64
 #endif
 
-#define TARGET_FRAMERATE 20
+#define TARGET_FRAMERATE 30
 #define DEV_MODE 0
 
 #define INPUT_LEFT 1
